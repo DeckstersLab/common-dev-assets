@@ -1,5 +1,5 @@
 # -*- mode:makefile; coding:utf-8 -*-
-include common-dev-assets/plugin-assets/config.env
+include common-dev-assets/common-assets/config.env
 export
 
 # explicitly tell Make these commands not associated with files
@@ -31,7 +31,7 @@ endif
 all: dependency-install-darwin-linux dependency-pre-commit
 
 dependency-install-darwin-linux:
-	./plugin-assets/install-deps.sh
+	./common-assets/install-deps.sh
 
 dependency-pre-commit:
 	pre-commit install
