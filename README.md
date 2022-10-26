@@ -12,6 +12,7 @@ installed. See the following [installation steps](https://pre-commit.com/#instal
 ### Install dev dependencies:
 To set up all necessary tools (including pre-commit hooks), from the root directory of this repo, run the following
 command:
+
 ```bash
 make
 ```
